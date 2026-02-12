@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="style.css" />
+<title>Valentine Letter</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet"/>
+</head>
+
+<body>
+
+<!-- Envelope Screen -->
+<div id="envelope-container">
+<img src="envelope.png" alt="Envelope" id="envelope" />
+<p>♡ Letter for You ♡</p>
+</div>
+
+<!-- Letter Container -->
+<div id="letter-container">
+
+<!-- PAGE 1 -->
+<div class="letter-window" id="page1">
+
+<h1 id="letter-title">Will you be my Valentine?</h1>
+
+<img src="labubu_heart.png" class="cat labubu" id="letter-cat" />
+
+<div class="buttons" id="letter-buttons">
+<img src="yes.png" class="btn yes-btn" alt="Yes" />
+<div class="no-wrapper">
+<img src="no.png" class="btn no-btn" alt="No" />
+</div>
+</div>
+
+<p id="final-text" class="final-text" style="display:none">
+Good Choice!<br>To proceed, click Yes
+</p>
+
+<img src="yes.png" class="btn yes-btn-continue">
+
+</div>
+
+<!-- PAGE 3 (NEW BLANK PAGE) -->
+<div class="letter-window" id="page3" style="display:none">
+
+<img src="final.png" class="final-img">
+<img src="open.png" class="open-btn">
+
+</div>
+
+<!-- PAGE 4 -->
+<div class="letter-window" id="page4" style="display:none">
+
+<h1>Oops! Collect letter from your Valentine!</h1>
+
+<p class="page4-text">
+Date Location: Khilgaon, 14th February,2026 at 4 p.m<br>
+See you soon!
+</p>
+
+<img src="qr.png" class="qr-img">
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
